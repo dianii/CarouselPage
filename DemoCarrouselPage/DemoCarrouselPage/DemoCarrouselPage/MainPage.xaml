@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoCarrouselPage"
+             x:Class="DemoCarrouselPage.MainPage">
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="Nacional.jpg"></Image>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="River Plate.jpg"></Image>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="Monaco.jpg"></Image>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="Juventus.jpg"></Image>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
+    
